@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <title></title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/materialize.css' %}"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/layouts/side-menu.css' %}"/>
   </head>
 <body>
 <div class="container">
   {% block content %}{% endblock %}
 </div>
 </body>
-<script src="{% static "js/jquery-2.2.3.js" %}"
-		integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="
-		crossorigin="anonymous"></script>
-<script src="{% static "js/materialize.js" %}"></script>
+<script src="{% static "js/ui.js" %}"></script>
 </html>
